@@ -11,13 +11,19 @@ downloaded from [ONNX MNIST Model](https://github.com/onnx/models/tree/main/visi
 
 [wonnx GitHub](https://github.com/webonnx/wonnx)
 
-Encountered a runtime error when loading the model with version 0.5 (latest). 
 
 ```bash
 cargo run --bin digit_wonnx
 ```
 
 
-## Using tract (NOT YET)
+Encountered a runtime error when loading the model with version 0.5 (latest). 
+
+
+## Using tract
 
 [tract GitHub](https://github.com/sonos/tract).
+
+```bash
+cargo run --bin digit_tract
+```
